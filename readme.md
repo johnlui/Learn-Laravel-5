@@ -4,6 +4,7 @@
 ###此为代码示例，教程地址：
 
 > [Laravel 5 系列入门教程（一）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/432.html)
+>
 > [Laravel 5 系列入门教程（二）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/433.html)
 
 ***有问题可以直接在教程下面留言***
