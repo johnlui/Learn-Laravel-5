@@ -66,14 +66,14 @@ class PagesController extends Controller {
 	public function update(Request $request,$id)
 	{
 		$this->validate($request, [
-			'title' => 'required|unique:pages|max:255',
+			'title' => 'required|unique:pages,title,'.$id.'|max:255',
 			'body' => 'required',
 		]);
 
 		$page = Page::find($id);
 		$page->title = Input::get('title');
 		$page->body = Input::get('body');
-		$page->user_id = Auth::user()->id;
+		$page->user_id = 1;//Auth::user()->id;
 
 		if ($page->save()) {
 			return Redirect::to('admin');

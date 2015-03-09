@@ -27,7 +27,7 @@
             <br>
             <textarea name="body" rows="10" class="form-control" required="required">{{ $page->body }}</textarea>
             <br>
-            <button class="btn btn-lg btn-info">新增 Page</button>
+            <button class="btn btn-lg btn-info">编辑 Page</button>
           </form>
 
         </div>
