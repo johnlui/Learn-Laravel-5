@@ -6,6 +6,10 @@
 > [Laravel 5 系列入门教程（一）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/432.html)
 >
 > [Laravel 5 系列入门教程（二）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/433.html)
+>
+> [Laravel 5 系列入门教程（三）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/434.html)
+>
+> [Laravel 5 系列入门教程（四）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/435.html)
 
 ***有问题可以直接在教程下面留言***
 
