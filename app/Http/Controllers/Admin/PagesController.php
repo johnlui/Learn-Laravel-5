@@ -36,7 +36,7 @@ class PagesController extends Controller {
 		$page = new Page;
 		$page->title = Input::get('title');
 		$page->body = Input::get('body');
-		$page->user_id = 1;//Auth::user()->id;
+		$page->user_id = Auth::user()->id;
 
 		if ($page->save()) {
 			return Redirect::to('admin');
@@ -73,7 +73,7 @@ class PagesController extends Controller {
 		$page = Page::find($id);
 		$page->title = Input::get('title');
 		$page->body = Input::get('body');
-		$page->user_id = 1;//Auth::user()->id;
+		$page->user_id = Auth::user()->id;
 
 		if ($page->save()) {
 			return Redirect::to('admin');

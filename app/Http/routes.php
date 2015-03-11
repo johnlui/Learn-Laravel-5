@@ -14,6 +14,7 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('pages/{id}', 'PagesController@show');
+Route::post('comment/store', 'CommentsController@store');
 
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
@@ -23,4 +24,5 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth
 {
   Route::get('/', 'AdminHomeComtroller@index');
   Route::resource('pages', 'PagesController');
+  Route::resource('comments', 'CommentsController');
 });
