@@ -7,6 +7,12 @@
             <div class="panel panel-default">
                 <div class="panel-heading">文章管理</div>
                 <div class="panel-body">
+                    @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            {!! implode('<br>', $errors->all()) !!}
+                        </div>
+                    @endif
+
                     <a href="{{ url('admin/article/create') }}" class="btn btn-lg btn-primary">新增</a>
 
                     @foreach ($articles as $article)
@@ -21,8 +27,8 @@
                         </div>
                         <a href="{{ url('admin/article/'.$article->id.'/edit') }}" class="btn btn-success">编辑</a>
                         <form action="{{ url('admin/article/'.$article->id) }}" method="POST" style="display: inline;">
-                            <input name="_method" type="hidden" value="DELETE">
-                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            {{ method_field('DELETE') }}
+                            {{ csrf_field() }}
                             <button type="submit" class="btn btn-danger">删除</button>
                         </form>
                     @endforeach
