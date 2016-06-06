@@ -12,6 +12,8 @@
 > [2016 版 Laravel 系列入门教程（三）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/6)
 >
 > [2016 版 Laravel 系列入门教程（四）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/7)
+>
+> [2016 版 Laravel 系列入门教程（五）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/8)
 
 ***有问题可以直接在教程下面留言***
 
