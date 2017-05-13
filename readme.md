@@ -2,7 +2,7 @@
 
 如果你想下载我的代码到本地运行，下载完成后记得运行 composer update 命令呦~
 
-###此为代码示例，教程地址：
+### 此为代码示例，教程地址：
 
 > [2016 版 Laravel 系列入门教程（一）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/4)
 >
@@ -16,7 +16,10 @@
 
 ***有问题可以直接在教程下面留言***
 
-> ###喜欢此系列教程可以点击上面右侧的 Star 哦，变成 Unstar 就可以了！ :stuck_out_tongue_winking_eye:
+> ### 喜欢此系列教程可以点击上面右侧的 Star 哦，变成 Unstar 就可以了！ :stuck_out_tongue_winking_eye:
+
+### 推荐《Laravel 进阶》网站：https://laravel.js.cn
+
 
 ### License
 
