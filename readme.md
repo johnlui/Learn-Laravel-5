@@ -1,19 +1,22 @@
 ## Laravel 5 系列入门教程
 
+如果你想下载我的代码到本地运行，下载完成后记得运行 composer update 命令呦~
 
 ###此为代码示例，教程地址：
 
-> [Laravel 5 系列入门教程（一）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/432.html)
+> [2016 版 Laravel 系列入门教程（一）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/4)
 >
-> [Laravel 5 系列入门教程（二）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/433.html)
+> [2016 版 Laravel 系列入门教程（二）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/5)
 >
-> [Laravel 5 系列入门教程（三）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/434.html)
+> [2016 版 Laravel 系列入门教程（三）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/6)
 >
-> [Laravel 5 系列入门教程（四）【最适合中国人的 Laravel 教程】](http://lvwenhan.com/laravel/435.html)
+> [2016 版 Laravel 系列入门教程（四）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/7)
+>
+> [2016 版 Laravel 系列入门教程（五）【最适合中国人的 Laravel 教程】](https://github.com/johnlui/Learn-Laravel-5/issues/8)
 
 ***有问题可以直接在教程下面留言***
 
-> ###别忘了点击上面右侧的 Star 哦，变成 Unstar 就可以了！ :stuck_out_tongue_winking_eye:
+> ###喜欢此系列教程可以点击上面右侧的 Star 哦，变成 Unstar 就可以了！ :stuck_out_tongue_winking_eye:
 
 ### License
 
