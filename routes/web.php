@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return date("Y-m-d H:i:s");
 });
 
 Auth::routes();

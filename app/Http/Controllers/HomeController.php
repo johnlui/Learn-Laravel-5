@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        throw new \Exception("我故意的", 1);
         return view('home');
     }
 }
