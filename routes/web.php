@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return date("Y-m-d H:i:s");
-});
-
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => 'auth', 'namespace' => 'Admin', 'prefix' => 'admin'], function() {
+    Route::get('/', 'HomeController@index');
+    Route::get('article', 'ArticleController@index');
+});
