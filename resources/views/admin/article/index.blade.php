@@ -13,7 +13,7 @@
                         </div>
                     @endif
 
-                    <a href="{{ url('admin/article/create') }}" class="btn btn-lg btn-primary">新增</a>
+                    <a href="{{ url('admin/articles/create') }}" class="btn btn-lg btn-primary">新增</a>
 
                     @foreach ($articles as $article)
                         <hr>
@@ -25,8 +25,8 @@
                                 </p>
                             </div>
                         </div>
-                        <a href="{{ url('admin/article/'.$article->id.'/edit') }}" class="btn btn-success">编辑</a>
-                        <form action="{{ url('admin/article/'.$article->id) }}" method="POST" style="display: inline;">
+                        <a href="{{ url('admin/articles/'.$article->id.'/edit') }}" class="btn btn-success">编辑</a>
+                        <form action="{{ url('admin/articles/'.$article->id) }}" method="POST" style="display: inline;">
                             {{ method_field('DELETE') }}
                             {{ csrf_field() }}
                             <button type="submit" class="btn btn-danger">删除</button>
